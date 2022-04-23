@@ -44,3 +44,12 @@ class _MyAppState extends State<MyApp> {
     );
   }
 }
+
+class ShadowWidget extends StatelessWidget {
+  const ShadowWidget({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
